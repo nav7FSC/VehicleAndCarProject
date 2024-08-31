@@ -1,28 +1,32 @@
 package org.education;
 
+// Car class extending Vehicle, representing a specific type of vehicle
 public class Car extends Vehicle {
+
     private String brand;
 
-    // Constructor
+    // Constructor to initialize attributes
     public Car(int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
-        super(numberOfWheels, color, engineSize, fuelType);
-        this.brand = brand;
+        super(numberOfWheels, color, engineSize, fuelType); // Call to Vehicle's constructor
+        this.brand = brand; // Initialize the brand attribute
     }
 
-    // Getter and Setter for brand
+    // Getter for brand
     public String getBrand() {
         return brand;
     }
 
+    // Setter for brand
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    // Additional Methods
+    // Method to simulate the car honking
     public void honk() {
         System.out.println("Honk, honk!");
     }
 
+    // Method to display information about the car
     public void displayInfo() {
         System.out.println("Car Details:");
         System.out.println("Brand: " + brand);
@@ -32,3 +36,4 @@ public class Car extends Vehicle {
         System.out.println("Fuel Type: " + getFuelType());
     }
 }
+

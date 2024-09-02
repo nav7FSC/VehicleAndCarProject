@@ -12,13 +12,13 @@ This project demonstrates the creation of a basic Java class hierarchy with a `V
 
 ## Example Output
 
-**Honk, honk!
-Car Details:
-Brand: Volvo
-Number of Wheels: 4
-Color: Yellow
-Engine Size: 2.5 liters
-Fuel Type: Petrol**
+- Honk, honk!
+- Car Details:
+- Brand: Volvo
+- Number of Wheels: 4
+- Color: Yellow
+- Engine Size: 2.5 liters
+- Fuel Type: Petrol
 
 ## How to Run
 ## Prerequisites:

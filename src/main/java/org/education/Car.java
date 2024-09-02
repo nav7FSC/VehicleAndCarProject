@@ -2,13 +2,13 @@ package org.education;
 
 // Car class extending Vehicle, representing a specific type of vehicle
 public class Car extends Vehicle {
-
+    // Additional attribute for Car
     private String brand;
 
-    // Constructor to initialize attributes
+    // Constructor to initialize all attributes including those from Vehicle
     public Car(int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
-        super(numberOfWheels, color, engineSize, fuelType); // Call to Vehicle's constructor
-        this.brand = brand; // Initialize the brand attribute
+        super(numberOfWheels, color, engineSize, fuelType);
+        this.brand = brand;
     }
 
     // Getter for brand
@@ -36,4 +36,3 @@ public class Car extends Vehicle {
         System.out.println("Fuel Type: " + getFuelType());
     }
 }
-

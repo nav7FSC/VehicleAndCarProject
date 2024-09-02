@@ -11,36 +11,14 @@ This project demonstrates the creation of a basic Java class hierarchy with a `V
 - **Main.java**: Contains the `main` method to test the classes by creating instances of `Vehicle` and `Car` and invoking their methods.
 
 ## Example Output
-## Running the Main class will produce the following output:
 
-- Vehicle Details:Number of Wheels: 4
-- Color: Red
-- Engine Size: 2.0 liters
-- Fuel Type: Petrol
-
-- Honk, honk!
-- Car Details:
-- Brand: Ford
-- Number of Wheels: 4
-- Color: Blue
-- Engine Size: 3.5 liters
-- Fuel Type: Petrol
-
-- Honk, honk!
-- Car Details:
-- Brand: Chevrolet
-- Number of Wheels: 4
-- Color: Black
-- Engine Size: 2.0 liters
-- Fuel Type: Diesel
-
-- Honk, honk!
-- Car Details:
-- Brand: Tesla
-- Number of Wheels: 4
-- Color: White
-- Engine Size: 0.0 liters
-- Fuel Type: Electric
+**Honk, honk!
+Car Details:
+Brand: Volvo
+Number of Wheels: 4
+Color: Yellow
+Engine Size: 2.5 liters
+Fuel Type: Petrol**
 
 ## How to Run
 ## Prerequisites:
